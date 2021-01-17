@@ -1,21 +1,30 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {Layout} from "antd";
 import Home from './Components/Home';
 import Services from './Components/Services';
 import Gallery from './Components/Gallery';
 import ContactUs from './Components/ContactUs';
 import NoMatch from './Components/NoMatch';
-import Layout from './Components/Layout';
-import NavigationBar from './Components/NavigationBar'
-import Jumbotron from './Components/Jumbotron'
+import LayoutPage from './Components/LayoutPage';
+import NavigationBar from './Components/NavigationBar';
+import Jumbotron from './Components/Jumbotron';
+import PageFooter from "./Components/PageFooter";
+
+const{Header, Content, Footer}=Layout;
+
+
 
 class App extends React.Component{
   render() {
     return (
         <React.Fragment>
-            <NavigationBar/>
+            <Header>
+                <NavigationBar/>
+            </Header>
+            <Content>
             <Jumbotron/>
-            <Layout>
+            <LayoutPage>
                 <Router>
                     <Switch>
                         <Route exact path="/" component={Home}/>
@@ -25,7 +34,11 @@ class App extends React.Component{
                         <Route component={NoMatch}/>
                     </Switch>
                 </Router>
-            </Layout>
+            </LayoutPage>
+            </Content>
+            <Footer>
+                <PageFooter/>
+            </Footer>
         </React.Fragment>
     );
   }
