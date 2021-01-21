@@ -7,12 +7,15 @@ const Styles = styled.div`
     background-color: #452712;
     margin-bottom: 0px;
   }
-  .navbar-brand, .navbar-nav .link {
+  .navbar-brand,.navbar-nav .link {
     color:gold;
     &:hover{
       color:goldenrod;
     }
   }
+  .navbar-toggle{
+  border-color: gold !important;
+  }  
 `
 
 class NavigationBar extends React.Component{
@@ -21,8 +24,8 @@ class NavigationBar extends React.Component{
             <Styles>
                 <Navbar expand="md">
                     <Navbar.Brand href="/">NQ Leather <br/>& Shoe Repair</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" className="link"/>
-                    <Navbar.Collapse id="basic-navbar-nav" className="link">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                    <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <Nav.Item>
                                 <Nav.Link href="/" className="link">Home</Nav.Link>

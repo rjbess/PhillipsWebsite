@@ -8,9 +8,9 @@ import ContactUs from './Components/ContactUs';
 import NoMatch from './Components/NoMatch';
 import LayoutPage from './Components/LayoutPage';
 import NavigationBar from './Components/NavigationBar';
-import Jumbotron from './Components/Jumbotron';
 import PageFooter from "./Components/PageFooter";
 import './App.css'
+import Jumbotron from "./Components/Jumbotron";
 
 const{Header, Content, Footer}=Layout;
 
@@ -25,18 +25,18 @@ class App extends React.Component{
                     <NavigationBar/>
                 </Header>
                 <Content>
-                <Jumbotron/>
-                <LayoutPage>
-                    <Router>
-                        <Switch>
-                            <Route exact path="/" component={Home}/>
-                            <Route exact path="/services" component={Services}/>
-                            <Route exact path="/gallery" component={Gallery}/>
-                            <Route exact path="/contactus" component={ContactUs}/>
-                            <Route component={NoMatch}/>
-                        </Switch>
-                    </Router>
-                </LayoutPage>
+                    <Jumbotron/>
+                    <LayoutPage>
+                        <Router>
+                            <Switch>
+                                <Route exact path="/" component={Home}/>
+                                <Route exact path="/services" component={Services}/>
+                                <Route exact path="/gallery" component={Gallery}/>
+                                <Route exact path="/contactus" component={ContactUs}/>
+                                <Route component={NoMatch}/>
+                            </Switch>
+                        </Router>
+                    </LayoutPage>
                 </Content>
                 <Footer>
                     <PageFooter/>
