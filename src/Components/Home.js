@@ -1,7 +1,7 @@
 import React from 'react'
-import {Container, Row, Image, Col} from "react-bootstrap";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import styled from 'styled-components';
-import Phillip from "../Assests/oldmanphoto.jpg";
+import Photo from "../Assests/HomePhotos/frontColoured.jpg";
 
 const Styled = styled.div`
   .col {
@@ -16,12 +16,12 @@ const Styled = styled.div`
 class Home extends React.Component{
     render(){
         return(
-                   <Container className="container" fluid>
+                   <MDBContainer>
                    <Styled>
-                        <Row>
-                            <Col className='col'>
+                        <MDBRow>
+                            <MDBCol className='col'>
                                 <h1>Our Story</h1>
-                                <Image src={Phillip} fluid roundedCircle/>
+                                <img src={Photo} className="img-fluid z-depth-2 rounded-circle"/>
                                 <div>
                                     .................................
                                     .................................
@@ -52,10 +52,10 @@ class Home extends React.Component{
                                     .................................
                                     .................................
                                 </div>
-                            </Col>
-                        </Row>
+                            </MDBCol>
+                        </MDBRow>
                     </Styled>
-                </Container>
+                </MDBContainer>
 
         );
     }
