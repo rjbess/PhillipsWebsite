@@ -19,6 +19,8 @@ const Styled = styled.div`
     margin-bottom:10px;
   }
   .text{
+    font-family:Times New Roman;
+    font-size: 24px;
     margin-top:20px;
     margin-bottom:10px;
   }

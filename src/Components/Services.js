@@ -40,7 +40,7 @@ class Services extends React.Component{
                                     <img className="card-img-top" src={Photo1} alt="" />
                                 </MDBCardUp>
                                 <MDBCardBody>
-                                    <h4 className="font-weight-bold mb-3">Photo of legs</h4>
+                                    <h4 className="font-weight-bold mb-3">Sole Replacement</h4>
                                     <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(1)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
@@ -68,7 +68,7 @@ class Services extends React.Component{
                                     <img className="card-img-top" src={Photo2} alt="" />
                                 </MDBCardUp>
                                 <MDBCardBody>
-                                    <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
+                                    <h4 className="font-weight-bold mb-3">Zipper Repair</h4>
                                     <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(2)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
@@ -99,7 +99,7 @@ class Services extends React.Component{
                                     <img className="card-img-top" src={Photo3}alt="" />
                                 </MDBCardUp>
                                 <MDBCardBody>
-                                    <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
+                                    <h4 className="font-weight-bold mb-3">Stitching & Patching</h4>
                                     <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(3)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
