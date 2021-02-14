@@ -23,10 +23,10 @@ class NavigationBar extends React.Component{
         return(
             <Styles>
                 <Navbar expand="lg">
-                        <Navbar.Brand href="/" >NQ LEATHER <br/>& SHOE REPAIR</Navbar.Brand>
+                        <Navbar.Brand href="/" >CALTABIANO'S</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="ml-auto">
+                            <Nav className="ml-auto  text-center">
                                 <Nav.Item>
                                     <Nav.Link href="/" className="link">HOME</Nav.Link>
                                 </Nav.Item>

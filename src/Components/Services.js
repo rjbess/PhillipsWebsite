@@ -6,7 +6,6 @@ import Photo3 from "../Assests/ServicesPhotos/photo3.jpg"
 import Photo4 from "../Assests/ServicesPhotos/photo4.jpg"
 import Photo5 from "../Assests/ServicesPhotos/photo5.jpg"
 import Photo6 from "../Assests/ServicesPhotos/photo6.jpg"
-import Photo7 from "../Assests/ServicesPhotos/photo7.jpg"
 import Photo8 from "../Assests/ServicesPhotos/photo8.jpg"
 import Photo9 from "../Assests/ServicesPhotos/photo9.jpg"
 
@@ -196,7 +195,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(6)}>
+                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(7)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -212,20 +211,18 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(6)}>
+                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(7)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
                             </MDBCard>
                         </MDBRotatingCard>
                     </MDBCol>
-                </MDBRow>
-                <MDBRow center>
                     <MDBCol md="4" style={{ minHeight: '26rem', maxWidth: "22rem" }}>
                         <MDBRotatingCard flipped={this.state.flipped7} className="text-center h-100 w-100">
                             <MDBCard className="face front">
                                 <MDBCardUp>
-                                    <img className="card-img-top" src={Photo7} alt="" />
+                                    <img className="card-img-top" src={Photo8}alt="" />
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
@@ -245,7 +242,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(7)}>
+                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(8)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>

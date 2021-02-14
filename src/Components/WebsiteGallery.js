@@ -20,7 +20,6 @@ class WebsiteGallery extends React.Component{
             <Container className="container" fluid>
                 <Styled>
                     <Row className="text">
-                        <h1>Our Work</h1>
                         <Gallery photos={photos}/>
                     </Row>
                 </Styled>
