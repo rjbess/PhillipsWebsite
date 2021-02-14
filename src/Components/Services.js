@@ -41,7 +41,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Photo of legs</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(1)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(1)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -54,7 +54,7 @@ class Services extends React.Component{
                                         What happends with the legs
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(1)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(1)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
@@ -69,7 +69,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(2)}>
+                                    <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(2)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -85,7 +85,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(2)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(2)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
@@ -100,7 +100,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(3)}>
+                                    <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(3)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -116,7 +116,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(3)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(3)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
@@ -133,7 +133,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(4)}>
+                                    <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(4)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -149,7 +149,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(4)}>
+                                    <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(4)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
@@ -164,7 +164,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(5)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(5)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -180,7 +180,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(5)}>
+                                    <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(5)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
@@ -191,11 +191,11 @@ class Services extends React.Component{
                         <MDBRotatingCard flipped={this.state.flipped6} className="text-center h-100 w-100">
                             <MDBCard className="face front">
                                 <MDBCardUp>
-                                    <img className="card-img-top" src={Photo6} alt="" />
+                                    <img className="card-img-top" src={Photo8} alt="" />
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(7)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(6)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -211,7 +211,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(7)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(6)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
@@ -226,7 +226,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(7)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(7)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -242,7 +242,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(8)}>
+                                    <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(7)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
@@ -257,7 +257,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(8)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(8)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -273,7 +273,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(8)}>
+                                    <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(8)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>
@@ -288,7 +288,7 @@ class Services extends React.Component{
                                 </MDBCardUp>
                                 <MDBCardBody>
                                     <h4 className="font-weight-bold mb-3">Marie Johnson</h4>
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(9)}>
+                                    <a  className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(9)}>
                                         <MDBIcon icon="redo" /> Click here to rotate
                                     </a>
                                 </MDBCardBody>
@@ -304,7 +304,7 @@ class Services extends React.Component{
                                         repellendus, voluptatum eum, officia laudantium quaerat?
                                     </p>
                                     <hr />
-                                    <a href="#!" className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(9)}>
+                                    <a className="rotate-btn text-dark" data-card="card-1" onClick={this.handleFlip(9)}>
                                         <MDBIcon icon="undo" /> Click here to rotate back
                                     </a>
                                 </MDBCardBody>

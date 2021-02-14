@@ -18,6 +18,7 @@ const Styles = styled.div`
     top: 50%;
     left: 50%;
     user-select:none;
+    text-shadow: 2px 2px black;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
