@@ -25,7 +25,7 @@ const Styles = styled.div`
   }
   @media (min-width: 100px) {
     .text{
-        font-size:32px;
+      font-size:32px;
     }
     .jumbo {
       background: url(${bannerSM})no-repeat center center;
@@ -33,14 +33,14 @@ const Styles = styled.div`
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
       background-size: 100% 100%;
-     -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+      -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
       filter: grayscale(70%);
       min-height: 200px;
     }
   }
   @media (min-width: 768px) {
-  .text{
-        font-size:48px;
+    .text{
+      font-size:48px;
     }
     .jumbo {
       background: url(${bannerMD})no-repeat center center;
@@ -53,11 +53,10 @@ const Styles = styled.div`
       min-height: 300px;
     }
   }
-
   /* Medium devices (desktops, 992px and up) */
   @media (min-width: 992px) {
     .text{
-        font-size:56px;
+      font-size:56px;
     }
     .jumbo{
       background: url(${bannerLG})no-repeat center center;
@@ -70,11 +69,10 @@ const Styles = styled.div`
       min-height: 400px;
     }
   }
-
   /* Large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {
     .text{
-        font-size:64px;
+      font-size:64px;
     }
     .jumbo{
       background: url(${bannerXL})no-repeat center center;
@@ -89,7 +87,7 @@ const Styles = styled.div`
   }
   @media (min-width: 2000px) {
     .text{
-        font-size:24x;
+      font-size:24x;
     }
     .jumbo{
       background: url(${bannerXXL2})no-repeat center center;
@@ -102,7 +100,7 @@ const Styles = styled.div`
       min-height: 600px;
     }
   }
- `;
+`;
 
 class Jumbotron extends React.Component{
 
@@ -110,18 +108,17 @@ class Jumbotron extends React.Component{
         thisText:"",
     }
     getText(){
-        let temp = window.location.href;
-        let temp2 = temp.split("/").pop();
-        if(temp2===""){
+        let temp = window.location.pathname;
+        if(temp==="/"){
             this.setState({thisText:"OUR STORY"})
         }
-        else if(temp2==="services"){
+        else if(temp==="/services/" || temp==="/services"){
             this.setState({thisText:"SERVICES"})
         }
-        else if(temp2==="gallery"){
+        else if(temp==="/gallery/" || temp==="/gallery"){
             this.setState({thisText:"OUR WORK"})
         }
-        else if(temp2==="contactus"){
+        else if(temp==="/contactus/" || temp==="/contactus"){
             this.setState({thisText:"CONTACT US"})
         }
         else{
@@ -146,6 +143,5 @@ class Jumbotron extends React.Component{
             </Styles>
         )
     }
-
 }
 export default Jumbotron;

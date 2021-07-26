@@ -42,7 +42,7 @@ export const photos=[
     {
         src:photo7,
         width:4,
-        height:2
+        height:3
     },
     {
         src:photo8,
@@ -72,7 +72,7 @@ export const photos=[
     {
         src:photo13,
         width:3,
-        height:1
+        height:2
     },
     {
         src:photo14,
