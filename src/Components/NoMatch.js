@@ -9,6 +9,9 @@ const Styled = styled.div`
     justify-items: center;
     align-items: center;
     margin-bottom: 200px;
+    font-family:Times New Roman;
+    margin-top:20px;
+    font-size: 24px;
   }
 `
 
@@ -17,18 +20,9 @@ class NoMatch extends React.Component{
         return(
             <Container className="container" fluid>
                 <Styled>
-                    <Row className="text">
-                        <text>Something went wrong.................................
-                            ...............................................................
-                            ...............................................................
-                            ...............................................................
-                            ...............................................................
-                            ...............................................................
-                            ...............................................................
-                            ...............................................................
-                            ...............................................................
-                        </text>
-                    </Row>
+                        <div className={"text"}>
+                            Sorry page not found.
+                        </div>
                 </Styled>
             </Container>
         );

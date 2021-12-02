@@ -122,7 +122,7 @@ class Jumbotron extends React.Component{
             this.setState({thisText:"CONTACT US"})
         }
         else{
-            this.setState({thisText:"ERROR 404"})
+            this.setState({thisText:"PAGE NOT FOUND"})
         }
     }
     componentDidMount() {

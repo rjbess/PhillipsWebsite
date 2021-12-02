@@ -1,17 +1,19 @@
 import React from 'react'
 import { MDBCard, MDBCardBody, MDBContainer, MDBRow, MDBCol,  MDBCardImage, MDBCardTitle , MDBCardText  } from "mdbreact";
 import styled from 'styled-components';
-import Photo1 from "../Assests/ServicesPhotos/soleRepair.jpg"
+import Photo1 from "../Assests/ServicesPhotos/IMG_1132.jpg"
 import Photo2 from "../Assests/ServicesPhotos/custom sandals.jpg"
-import Photo3 from "../Assests/ServicesPhotos/stitching & Patching.png"
-import Photo5 from "../Assests/ServicesPhotos/photo5.jpg"
-import Photo6 from "../Assests/ServicesPhotos/photo6.jpg"
-import Photo8 from "../Assests/ServicesPhotos/photo8.jpg"
-import Photo9 from "../Assests/ServicesPhotos/photo9.jpg"
+import Photo3 from "../Assests/ServicesPhotos/photo5.jpg"
+import Photo4 from "../Assests/ServicesPhotos/HandbagRepair.jpg"
+import Photo5 from "../Assests/ServicesPhotos/leatherReapairTwo.jpg"
 
 const Styled=styled.div`
   .col{
     margin-bottom: 1em;
+  }
+  .card{
+    min-height: 545px;
+    min-width: 200px;
   }
 `
 
@@ -20,202 +22,146 @@ class Services extends React.Component{
         return(
             <MDBContainer>
                 <Styled>
-                <MDBRow center>
-                    <MDBCol md='4' className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src={Photo1}
-                                alt='soleShoes'
-                            />
+                    <MDBRow center>
+                        <MDBCol md='4' className={'col'}>
+                            <MDBCard>
+                                <MDBCardImage
+                                    className='card-img-top'
+                                    src={Photo1}
+                                    alt='soleShoes'
+                                />
+                                <MDBCardBody cascade className='text-center'>
+                                    <MDBCardTitle className='card-title'>
+                                        <strong>Boots, Shoes and Stilettos</strong>
+                                    </MDBCardTitle>
+                                    <MDBCardText>
+                                        Expert in all aspects of foot ware repair to to get you back in your favourite
+                                        pair of shoes. Services included:
+                                        <ul>
+                                            <br></br>
+                                            <li>Sole Replacement</li>
+                                            <li>Heel Replacement</li>
+                                            <li>Elastic Repair</li>
+                                            <li>Toe Piece Replacement</li>
+                                            <li>Zipper Repair</li>
+                                            <li>Spoke Alterations</li>
+                                            <li>Stretching and Resizing</li>
+                                        </ul>
+                                    </MDBCardText>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </MDBCol>
+                        <MDBCol md='4' className={'col'}>
+                            <MDBCard>
+                                <MDBCardImage
+                                    className='card-img-top'
+                                    src={Photo4}
+                                    alt='stitching'
+                                />
+                                <MDBCardBody cascade className='text-center'>
+                                    <MDBCardTitle className='card-title'>
+                                        <strong>Handbags and Wallets</strong>
+                                    </MDBCardTitle>
+                                    <MDBCardText>
+                                        Specialising in the delicate repair of all handbags and wallets; material
+                                        or leather. Services include:
+                                        <ul>
+                                            <br></br>
+                                            <li>Lining Repair</li>
+                                            <li>Stitching and Tears</li>
+                                            <li>Rivets, Buckles + Studs Replacement</li>
+                                            <li>Strap Replacement</li>
+                                            <li>Zipper Repair</li>
+                                            <li>Alterations</li>
+                                        </ul>
+                                    </MDBCardText>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </MDBCol>
+                        <MDBCol md='4' className={'col'}>
+                            <MDBCard>
+                                <MDBCardImage
+                                    className='card-img-top'
+                                    src={Photo5}
+                                    alt='man'
+                                />
+                                <MDBCardBody cascade className='text-center'>
+                                    <MDBCardTitle className='card-title'>
+                                        <strong>Leather</strong>
+                                    </MDBCardTitle>
+                                    <MDBCardText>
+                                        Whether it be Leather Jackets, Chaps, Bags, Gloves, Pants or Vests.
+                                        We offer a wide range of leather repair including:
+                                        <ul>
+                                            <br></br>
+                                            <li>Leather Patching</li>
+                                            <li>Lining Repair</li>
+                                            <li>Zipper Replacements</li>
+                                            <li>Stitching and Patching</li>
+                                            <li>Size Alterations</li>
+                                            <li>Motorbike Leathers</li>
+                                            <li>Cowboy Chaps</li>
+                                        </ul>
+                                    </MDBCardText>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow center>
+                        <MDBCol md='4' className={'col'}>
+                            <MDBCard>
+                                <MDBCardImage
+                                    className='card-img-top'
+                                    src={Photo3}
+                                    alt='man'
+                                />
+                                <MDBCardBody cascade className='text-center'>
+                                    <MDBCardTitle className='card-title'>
+                                        <strong>Canvas Material</strong>
+                                    </MDBCardTitle>
+                                    <MDBCardText>
+                                        Not just limited to leather, we are able to repair a wide range
+                                        of canvas material such as:
+                                        <ul>
+                                            <br></br>
+                                            <li>Tarps</li>
+                                            <li>Trampolines</li>
+                                            <li>Car Covers</li>
+                                            <li>Canvas Bags</li>
+                                            <li>Golf Bags Bags</li>
+                                        </ul>
+                                    </MDBCardText>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </MDBCol>
+                        <MDBCol md='4' className={'col'}>
+                            <MDBCard>
+                                <MDBCardImage
+                                    className='card-img-top'
+                                    src={Photo2}
+                                    alt='customSandals'
+                                />
+                                <MDBCardBody cascade className='text-center'>
+                                    <MDBCardTitle className='card-title'>
+                                        <strong>Custom Sandals</strong>
+                                    </MDBCardTitle>
+                                    <MDBCardText>
+                                        Expertly crafted handmade leather sandals to custom fit
+                                        your feet. Made of high quality leather design for maximum comfort
+                                        and extreme durability.
 
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Sole Replacement</strong>
-                                </MDBCardTitle>
-                                <MDBCardText>
-                                    Sed ut hjgjhkgjkhjkhujk
-                                    khghjgbhjbjkjhhkl
-                                    ijhijiuyhuihuiohuih
-                                    jhbhujbhjbhbhubhub
-                                    jihbhjbhjbhjbhjbjhk
-                                    jhvbhgjgbvhjgbhjbhjb
-                                    hjguhguyghuyhgyuhguyh
-                                    jhkiuihiuhiuhiou
-                                    jhguhguhgbuyhgyuighyu
-                                    jhvbuhgvyuggftyftyufgiuy
-                                    hgivyguigyutgyugyuigyu
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md='4' className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src={Photo2}
-                                alt='customSandals'
-                            />
+                                        <ul>
+                                            <br></br>
+                                            <li>Durable</li>
+                                            <li>Comfortable</li>
+                                            <li>Precise Fit</li>
+                                        </ul>
 
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Custom Sandals</strong>
-                                </MDBCardTitle>
-                                <MDBCardText>
-                                    Sed ut hjgjhkgjkhjkhujk
-                                    khghjgbhjbjkjhhkl
-                                    ijhijiuyhuihuiohuih
-                                    jhbhujbhjbhbhubhub
-                                    jihbhjbhjbhjbhjbjhk
-                                    jhvbhgjgbvhjgbhjbhjb
-                                    hjguhguyghuyhgyuhguyh
-                                    jhkiuihiuhiuhiou
-                                    jhguhguhgbuyhgyuighyu
-                                    jhvbuhgvyuggftyftyufgiuy
-                                    hgivyguigyutgyugyuigyu
-
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md='4' className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src={Photo3}
-                                alt='stitching'
-                            />
-
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Stitching & Patching</strong>
-                                </MDBCardTitle>
-                                 <MDBCardText>
-                                    Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam.{' '}
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                </MDBRow>
-                <MDBRow center>
-                    <MDBCol md='4'className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src='https://mdbcdn.b-cdn.net/img/Photos/Others/men.jpg'
-                                alt='man'
-                            />
-
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Lining Repair</strong>
-                                </MDBCardTitle>
-                                <MDBCardText>
-                                    Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam.{' '}
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md='4' className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src='https://mdbcdn.b-cdn.net/img/Photos/Others/men.jpg'
-                                alt='man'
-                            />
-
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Belts & Buckles</strong>
-                                </MDBCardTitle>
-                                <MDBCardText>
-                                    Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam.{' '}
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md='4' className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src='https://mdbcdn.b-cdn.net/img/Photos/Others/men.jpg'
-                                alt='man'
-                            />
-
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Heel Replacement</strong>
-                                </MDBCardTitle>
-                                <MDBCardText>
-                                    Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam.{' '}
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                </MDBRow>
-                <MDBRow>
-                    <MDBCol md='4' className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src='https://mdbcdn.b-cdn.net/img/Photos/Others/men.jpg'
-                                alt='man'
-                            />
-
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Bag Repair</strong>
-                                </MDBCardTitle>
-                                <MDBCardText>
-                                    Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam.{' '}
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md='4' className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src='https://mdbcdn.b-cdn.net/img/Photos/Others/men.jpg'
-                                alt='man'
-                            />
-
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Zipper Repair</strong>
-                                </MDBCardTitle>
-                                <MDBCardText>
-                                    Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam.{' '}
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md='4' className={'col'}>
-                        <MDBCard>
-                            <MDBCardImage
-                                className='card-img-top'
-                                src='https://mdbcdn.b-cdn.net/img/Photos/Others/men.jpg'
-                                alt='man'
-                            />
-
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle className='card-title'>
-                                    <strong>Chap Repair</strong>
-                                </MDBCardTitle>
-                                <MDBCardText>
-                                    Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam.{' '}
-                                </MDBCardText>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                </MDBRow>
+                                    </MDBCardText>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </MDBCol>
+                    </MDBRow>
                 </Styled>
             </MDBContainer>
         );

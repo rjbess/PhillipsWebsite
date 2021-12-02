@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Nav, Navbar} from 'react-bootstrap';
+import { Nav, Navbar} from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -23,7 +23,7 @@ class NavigationBar extends React.Component{
         return(
             <Styles>
                 <Navbar expand="lg">
-                        <Navbar.Brand href="/" >CALTABIANO'S</Navbar.Brand>
+                        <Navbar.Brand href="/" >PHILLIP'S BOOT REPAIR</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ml-auto  text-center">

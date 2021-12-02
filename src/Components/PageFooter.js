@@ -9,10 +9,10 @@ class PageFooter extends React.Component{
                         <MDBRow center>
                             <MDBCol xs>
                                 <ul className="list">
-                                    <li className="list-unstyled">123 Fake Street</li>
-                                    <li className="list-unstyled">Jensen QLD 4818</li>
-                                    <li className="list-unstyled">fakeemail@fake.com</li>
-                                    <li className="list-unstyled">07 1234 5678</li>
+                                    <li className="list-unstyled">Contact Details</li>
+                                    <li className="list-unstyled">(07) 4751 6629</li>
+                                    <li className="list-unstyled">0488 152 294</li>
+                                    <li className="list-unstyled">phillipsbootrepairs@gmail.com</li>
                                 </ul>
                             </MDBCol>
                             <MDBCol xs>

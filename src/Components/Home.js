@@ -31,7 +31,7 @@ const Styled = styled.div`
   }
   @media (min-width: 992px){
     .text{
-      font-size: 24px;
+      font-size: 22px;
     }
   }
 `
@@ -44,21 +44,59 @@ class Home extends React.Component{
                         <MDBRow>
                             <MDBCol className='col'>
                                 <img src={Photo} className="img-fluid z-depth-2 rounded-circle"/>
+                            </MDBCol>
+                        </MDBRow>
+                        <MDBRow>
+                            <MDBCol className='col'>
+                                <div className="text" >
+                                    Phil was born in Ingham Queensland in 1939; his parents immigrating to Australia from Giarre Sicily back in the early 1930’s.
+                                </div>
+                            </MDBCol>
+                            <MDBCol>
+                                <img src={Family} height={300}/>
+                            </MDBCol>
+                        </MDBRow>
+                        <MDBRow>
+                            <MDBCol className='col'>
+                                <img src={Peter} height={300}/>
+                            </MDBCol>
+                            <MDBCol className='col'>
                                 <div className="text">
-                                    Phil was born in Ingham Queensland in 1939; his parents immigrating to Australia from Giarre Sicily back in the early 1930’s.<br/><br/>
-
-                                    Young Phil first started his shoe apprenticeship with his Uncle Peter.  Uncle Peter immigrated to Australia in the late 1940’s, as a trade qualified ‘new leather shoemaker & cobbler’. He learnt his trade from his father Giuseppe, the authentic Sicilian way. Once arriving to Ingham Queensland, Peter offered the small town his services, building a successful career. Phil then continued his craft with a locally owned business owner, Stan Oliver Shoe Repairs, located on Sturt Street, Townsville.<br/><br/>
-
-                                    Around 1962, Phil began his own business: 24 Hour Boot & Shoe Repairs.  Phil worked from under his family home in Beatrice Street Aitkenvale for a few years, before moving into a business premises along the ‘Golden Mile’; or known today as, Ross River Road Aitkenvale.<br/><br/>
-
-                                    This little shop—then owned by the Woolley sisters—is where Phil ran a successful shoe repair business for over 30 years.  It was simpler times back then, and Phil was able to achieve operating a small business without today’s luxuries of mobile phones, internet, email, or eftpos machines.  He serviced the entire Western, Northern and Far Northern Regions of Queensland, by delivering expert craftsmanship, offering affordable repairs, and good old fashion customer service.<br/><br/>
-
-                                    Today Phil is retired, but still doing repairs for his community.  He is currently the long-time preferred repairer for Donohue’s Townsville.  Phil now offers his specialised services through this new online platform to anyone who seeks his craftsmanship.<br/><br/>
-
+                                    Young Phil first started his shoe apprenticeship with his Uncle Peter.  Uncle Peter immigrated to Australia in the late 1940’s, as a trade qualified ‘new leather shoemaker & cobbler’. He learnt his trade from his father Giuseppe, the authentic Sicilian way. Once arriving to Ingham Queensland, Peter offered the small town his services, building a successful career. Phil then continued his craft with a locally owned business owner, Stan Oliver Shoe Repairs, located on Sturt Street, Townsville.
                                 </div>
                             </MDBCol>
                         </MDBRow>
-                         <MDBRow>
+                        <MDBRow>
+                            <MDBCol className='col'>
+                                <div className="text">
+                                    Around 1962, Phil began his own business: 24 Hour Boot & Shoe Repairs.  Phil worked from under his family home in Beatrice Street Aitkenvale for a few years, before moving into a business premises along the ‘Golden Mile’; or known today as, Ross River Road Aitkenvale.
+                                </div>
+                            </MDBCol>
+                            <MDBCol className={'col'}>
+                                <img src={OldBusiness} height={300}/>
+                            </MDBCol>
+                        </MDBRow>
+                        <MDBRow>
+                            <MDBCol className='col'>
+                                <div className="text">
+                                    This shop—then owned by the Woolley sisters—is where Phil ran a successful shoe repair business for over 30 years.  It was simpler times back then, and Phil was able to achieve operating a small business without today’s luxuries of mobile phones, internet, email, or eftpos machines.  He serviced the entire Western, Northern and Far Northern Regions of Queensland, by delivering expert craftsmanship, offering affordable repairs, and good old fashion customer service.
+                                </div>
+                            </MDBCol>
+                            <MDBCol className={'col'}>
+                                <img src={OldBusiness2} height={300}/>
+                            </MDBCol>
+                        </MDBRow>
+                        <MDBRow>
+                            <MDBCol className={'col'}>
+                                <img src={PhilipSign} height={300}/>
+                            </MDBCol>
+                            <MDBCol className='col'>
+                                <div className="text">
+                                    Today Phil is retired, but still doing repairs for his community.  He is currently the long-time preferred repairer for Donohue’s Townsville.  Phil now offers his specialised services through this new online platform to anyone who seeks his craftsmanship.
+                                </div>
+                            </MDBCol>
+                        </MDBRow>
+                    {/*<MDBRow>
                             <MDBCol>
                                <MDBCarousel
                                    activeItem={1}
@@ -117,7 +155,7 @@ class Home extends React.Component{
                                    </MDBCarouselInner>
                                </MDBCarousel>
                             </MDBCol>
-                        </MDBRow>
+                        </MDBRow>*/}
                 </Styled>
             </MDBContainer>
         );
